@@ -42,7 +42,7 @@ batch_size = 100
 count = 0
 
 # Load and process data from CSV in batches
-for batch_df in pd.read_csv('./resume/Resume/Resume.csv', chunksize=batch_size):
+for batch_df in pd.read_csv('Resumes.csv', chunksize=batch_size):
     print(count)
     count += 1
     
